@@ -1,0 +1,129 @@
+html,body{
+	background-color: #E0DFDA;
+}
+
+section{
+	margin-right: auto;
+	margin-left: auto;
+
+	margin-top: 50px;
+	display: block;
+}
+section.toDoWrapper{
+	width:500px;
+	background-color: #FFFFFF;
+
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+section#toDoHeader{
+	padding: 8px 5px 8px 15px;
+	background-color: #635D73;
+}
+
+#toDoHeader{
+	font-family:"Lucida Bright","Georgia","serif" ;
+	font-size:16px ;
+
+	color:#E7EAD0;
+}
+#toDoHeader span{
+	margin-right: 15px;
+}
+#toDoHeader label small{
+	font-family: "Impulse","serif";
+}
+section.toDoView{
+	margin: 0px;
+	padding: 0px;
+}
+
+.toDoView ul{
+	vertical-align: middle;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.toDoView ul li{
+	vertical-align: middle;
+	border-bottom: 1px dotted #9AACB8;
+	/*padding: 15px 5px 15px 10px;*/
+	padding:5px;
+}
+
+.adjust{
+	padding: 15px 5px 15px 10px;
+}
+.toDoView ul li span{
+	display: inline-block;
+	width: 390px;
+	margin-right: 0px;
+	font-family: "Courier New";
+	font-size: 12px;
+
+	color: #4B5459;
+	font-weight: bold;
+	font-style: italic;
+}
+.toDoView ul li input{
+	display: inline;
+	margin-left: 19px;
+	background-color: #FFFFFF;
+	border: none;
+}
+.toDoView ul li button{
+	display: none;
+	float: right;
+	padding-top: 3px;
+	margin-top: 5px;
+	margin-right: 15px;
+	background-color: #FFFFFF;
+	border: none;
+
+	font-family: "Boulder";
+	font-weight: bolder;
+	color: #94702C;
+
+	font-size: 18px;
+}
+
+.toDoView ul li button:hover{
+	color: #4F3C17;
+	font-size: 18px;
+}
+div#inputArea{
+	padding: 10px 5px 10px 19px;
+}
+
+#inputArea input[type="text"]{
+	width: 450px;
+	padding: 10px 5px 10px 5px;
+
+	border: 1px solid gray;
+}
+
+section.footer{
+	text-align: center;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+
+	margin-top: 50px;
+}
+
+.footer p{
+	color:#707E85;
+	font-weight: bold;
+	font-family: "arial black";
+	font-size: 12px;
+	vertical-align: middle;
+}
+.footer p a{
+	color: #92A5AD;
+	text-decoration: none;
+}
+.footer p a:hover{
+	text-decoration: underline;
+}
