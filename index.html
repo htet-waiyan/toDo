@@ -4,10 +4,18 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-		<script type="text/javascript" src="toDo.js"></script>
+		<script type="text/javascript" src="toDoOO.js"></script>
 	</head>
 	<body>
+		
 		<section>
+		<div id="msg">
+			Sample Message
+		</div>
+		<section class="noti">
+			<p></p>
+			<button id="Ok">I got it</button>
+		</section>
 		<section class="toDoWrapper">
 			<section id="toDoHeader">
 				<span>
@@ -28,9 +36,19 @@
 					</li>-->
 				</ul>
 				<div id="inputArea">
-					<input type="text" maxlength="100" id="taskInput" placeholder="Click here to add tasks. Maximum task length 100."/>
+					<input type="text"  id="taskInput" placeholder="Click here to add tasks. Maximum task length 100."/>
 				</div>
 			</section>
+		</section>
+		<section class="button-wrapper">
+			<table>
+				<tr>
+					<td align="right">
+						<button id="toggle">Save</button>
+					</td>
+					<td  align="left"><button id="reset">Delete</td>
+				</tr>
+			</table>
 		</section>
 		<section class="footer">
 			<p>
